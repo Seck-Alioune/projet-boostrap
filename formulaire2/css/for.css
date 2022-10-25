@@ -1,0 +1,62 @@
+body{ 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    background-color: gray;
+}
+.trait{
+    border: 2px solid red;
+    text-align: center;
+    background-color: ghostwhite;
+    height: 50%;
+    width: 220px;
+    align-items: center;
+    margin: 8% auto 0;
+    box-shadow: 0 0 9px black;
+    padding: 20px;
+    position: center;
+}
+.yes{
+    text-align: center;
+    margin-top: 10px;
+    justify-content: center;
+    
+}
+.taille{
+    height: 30px;
+}
+::placeholder{
+    margin-left: auto;
+}
+.couleur{
+    color: black;
+    width: 1000px;
+}
+::placeholder{
+    padding-left: 2%;
+}
+.ev{
+    background-color: green;
+    width: 319px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    border: blue;
+    padding: 10rem;
+}
+.head{
+    background-color: orange;
+    height: 90%;
+}
+.input{
+    text-align: center;
+}
+#contener{
+background-color: #d39d38;
+width: 100%;
+margin: auto;
+height: 90%;
+
+}
+

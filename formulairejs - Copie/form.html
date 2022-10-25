@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    
+    <script src="form.js"></script>
+    
+  <form  action="result.html" onsubmit="result()" class="container"  id="formulaire">
+      <fieldset class="lui">
+        <p1 class="text"></p1>REMPLIR LE FORMULARE</p1> 
+        <table>
+            <pre>
+            <tr>
+<td><label for="n">Nom</label></td>
+
+<td><input type="text" name="n1" id="n" required> </td>
+            </tr>
+           </pre>
+
+
+            <tr>
+                <td><label for="p">Premon</label></td>
+                <td><input type="text" name="p1" id="p" required> </td>
+                            </tr>
+                            <tr>
+
+                                <td><label for="e">Entrer votre email </label></td>
+                                <td><input type="email" name="email" id="e" required> </td>
+                        </tr>                               
+                                  
+                        <tr>
+                            <p>
+                           
+                                           <tr>                                                                                     
+ <td><label for="h">homme </label> <input type="radio" id="h" name="homme" required> </td>
+</tr>
+<td><label for="f">femme </label> <input type="radio" id="h" name="homme" required> </td>
+  
+    <tr class="td"> 
+         <td ><select class="metier" name="metier" id="metier-select"required>
+                  <option value="">-- choisir votre metier--</option>
+                  <option value="Développeur(e)">Développeur(e)</option>
+                  <option value="Medecin">Medecin</option>
+                  <option value="Avocat">Avocat</option>
+                  <option value="Mécanicien">Mécanicien</option>
+                  <option value="Enseignant(e)">Enseignant(e)</option>
+                  <option value="Footballeur">Footballeur</option>
+        </select></td> </tr>
+
+        <td colspan="2"><input type="submit" name="sub" id="R1" value="Envoyer"></td>   
+<td><input type="reset" name="reset1" id="R1" value=" Annuler"></td> 
+    
+        
+        </table>
+        </fieldset>
+     </form>
+    
+    </center>
+  </body>
+</html>

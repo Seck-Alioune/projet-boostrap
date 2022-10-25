@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(174, 243, 240);
+    
+
+    
+}
+label,
+select
+    
+
+h1{
+    
+    text-align: center;
+    top: 48%;
+}
+.vos{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.td{
+margin-left: auto;
+}
+.lui{border-radius: 1rem;
+    display: block;
+    justify-content: center;
+    padding-left: 30px;
+    box-shadow: 100rem;
+    justify-content: center;
+    padding-bottom: 19px;
+    padding-right: 30px;
+    background-color: chartreuse;
+    
+
+}
+.container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+ 

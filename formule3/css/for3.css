@@ -1,0 +1,81 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    }
+.trait{
+    
+    text-align: center;
+    background-color: ghostwhite;
+    height: 50%;
+    width: 300px;
+    align-items: center;
+    margin: 8% auto 0;
+    padding: 20px;
+    position: center;
+    border-radius: 6px;
+}
+.yes{
+    
+    margin-top: 10px;
+    margin-left: -16rem;
+    
+    
+}
+.taille{
+    height: 30px;
+    background-color: pink;
+    border-radius: 4px;
+    border: blue;
+}
+::placeholder{
+    margin-left: auto;
+    color: white;
+    
+
+}
+.couleur{
+    color: black;
+    width: 1000px;
+}
+::placeholder{
+    padding-left: 2%;
+     
+}
+.ev{
+    background-color: white;
+    
+    height: 40px;
+    color:black;
+    text-align: center;
+    border: blue;
+    box-shadow: 0 0 9px;
+    border-radius: 6px;
+    width: 300px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.vt{
+    background-color: pink;
+    border-radius: 6px;
+}
+
+.input{
+    text-align: center;
+}
+
+
+p1{
+    float: left;
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+h1{
+    margin-left: 3px;
+}
+p{
+    font-size: 12px;
+    margin-left: -6rem;
+}
+
+

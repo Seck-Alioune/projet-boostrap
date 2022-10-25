@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fond{
+    width: 50px;
+    padding: 10%;
+    background-color: blue;
+    border: none;
+    margin-top: 60px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    padding: 10%;
+    background-color: blue;
+    border: none;
+    margin-top: 60px;
+}
+
+
+button{
+    background-color: dodgerblue;
+    margin:12px;
+    padding:20px;
+    margin-top: 60px;
+    cursor: pointer;
+    border: none;
+}
+
+.incremente {
+    cursor: pointer;
+    height: 300px;
+}
